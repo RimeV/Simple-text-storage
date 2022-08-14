@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.rimev</groupId>
+	<artifactId>simple_text_storage</artifactId>
+	<version>1.0.0</version>
+	<name>Simple text storage</name>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+		<dependency>
+    		<groupId>org.springframework.boot</groupId>
+    		<artifactId>spring-boot-starter-web</artifactId>
+    		<version>2.7.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-web -->
+		<dependency>
+    		<groupId>org.springframework</groupId>
+    		<artifactId>spring-web</artifactId>
+    		<version>5.3.22</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+		<dependency>
+    		<groupId>org.junit.jupiter</groupId>
+    		<artifactId>junit-jupiter-api</artifactId>
+    		<version>5.9.0</version>
+    		<scope>test</scope>
+		</dependency>
+	</dependencies>
+	<description>Простое in-memory хранилище для хранения пользовательских заметок</description>
+</project>
